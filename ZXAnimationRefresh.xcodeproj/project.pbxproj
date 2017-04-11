@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F11D64D1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11D64C1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.m */; };
 		1F28DCD91E9767860015CC10 /* XXFreshAnimationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28DCD81E9767860015CC10 /* XXFreshAnimationHeader.m */; };
 		1FF45B391E97642A00A3267A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF45B381E97642A00A3267A /* main.m */; };
 		1FF45B3C1E97642A00A3267A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF45B3B1E97642A00A3267A /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F11D64B1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZXXPullRefresh.h"; sourceTree = "<group>"; };
+		1F11D64C1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZXXPullRefresh.m"; sourceTree = "<group>"; };
 		1F28DCD71E9767860015CC10 /* XXFreshAnimationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXFreshAnimationHeader.h; sourceTree = "<group>"; };
 		1F28DCD81E9767860015CC10 /* XXFreshAnimationHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXFreshAnimationHeader.m; sourceTree = "<group>"; };
 		1FF45B341E97642A00A3267A /* ZXAnimationRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXAnimationRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +89,8 @@
 			children = (
 				1F28DCD71E9767860015CC10 /* XXFreshAnimationHeader.h */,
 				1F28DCD81E9767860015CC10 /* XXFreshAnimationHeader.m */,
+				1F11D64B1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.h */,
+				1F11D64C1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.m */,
 			);
 			path = refreshAnimation;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				1FF45B3F1E97642A00A3267A /* ViewController.m in Sources */,
 				1FF45B3C1E97642A00A3267A /* AppDelegate.m in Sources */,
 				1FF45B391E97642A00A3267A /* main.m in Sources */,
+				1F11D64D1E9B5F6F00B710BE /* UIScrollView+ZXXPullRefresh.m in Sources */,
 				1F28DCD91E9767860015CC10 /* XXFreshAnimationHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

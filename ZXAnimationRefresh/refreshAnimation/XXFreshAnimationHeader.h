@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^RefreshHandler)();
+
 @interface XXFreshAnimationHeader : UIView
 
+@property (nonatomic, copy)RefreshHandler refreshHandler;
+- (void)endRefreshing;
 @end
