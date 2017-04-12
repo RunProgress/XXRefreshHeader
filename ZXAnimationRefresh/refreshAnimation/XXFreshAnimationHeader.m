@@ -304,6 +304,7 @@ const CGFloat XXRefreshTransitionRang = 5.0f;
     rotationAni.fillMode = kCAFillModeForwards;
     rotationAni.removedOnCompletion = NO;
     [layer addAnimation:rotationAni forKey:@"rotationAni"];
+    
 }
 
 

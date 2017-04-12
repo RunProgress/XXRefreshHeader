@@ -10,6 +10,8 @@
 #import "XXFreshAnimationHeader.h"
 #import "UIScrollView+ZXXPullRefresh.h"
 
+ static int tally = 0;
+
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong)UITableView *tableView;
@@ -30,14 +32,19 @@
     __weak typeof(self) weakSelf = self;
     [self.tableView addRefreshHeaderWithHandler:^{
         NSLog(@"-------- 执行下拉刷新 --------");
-//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//            XXFreshAnimationHeader *header = weakSelf.tableView.header;
-//            [header endRefreshing];
-//        });
     }];
-
+ 
+    
     
 }
+
+- ( void) ThreadProc {
+    for(int i = 1; i <= 10000; i++){
+        tally += 1;
+        NSLog(@"1--%d", i);
+    }
+}
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
